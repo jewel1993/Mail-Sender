@@ -1,0 +1,23 @@
+{
+  "name": "hapi-rest-mongo",
+  "version": "1.0.0",
+  "description": "Simple REST project with hapijs and mongodb.",
+  "main": "server.js",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "aws-sdk": "^2.4.2",
+    "boom": "^3.0.0",
+    "hapi": "^11.1.2",
+    "joi": "^7.0.1",
+    "mongojs": "^2.1.0",
+    "node-libcurl": "^1.0.0",
+    "node-schedule": "^1.1.1",
+    "node-uuid": "^1.4.7",
+    "nodemailer": "^2.4.2",
+    "nodemailer-ses-transport": "^1.4.0",
+    "sendmail": "^0.2.1"
+  }
+}
